@@ -501,6 +501,7 @@ BEGIN
         MENUITEM "Mark as resolved",            ID_EDIT_MARKASRESOLVED
         MENUITEM SEPARATOR
         MENUITEM "Create patch file",           ID_EDIT_CREATEUNIFIEDDIFFFILE
+        MENUITEM "Open recent file pairs"       ID_OPEN_RECENT_FILE_PAIRS
         MENUITEM SEPARATOR
         MENUITEM "Reload",                      ID_FILE_RELOAD
         MENUITEM "&Enable edit",                ID_EDIT_ENABLE
@@ -975,7 +976,8 @@ BEGIN
     ID_VIEW_INLINEDIFFWORD  "Show Inline-Diff word by word\nInline diff word-wise"
     ID_EDIT_CREATEUNIFIEDDIFFFILE 
                             "Creates a patch file from the differences of the two files\nCreate patch file"
-END
+	ID_OPEN_RECENT_FILE_PAIRS "Open the recent comparisons"
+END 
 
 STRINGTABLE
 BEGIN

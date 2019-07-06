@@ -1,7 +1,7 @@
-// TortoiseGitMerge - a Diff/Patch program
+﻿// TortoiseGitMerge - a Diff/Patch program
 
 // Copyright (C) 2013 - TortoiseGit
-// Copyright (C) 2006-2015, 2017 - TortoiseSVN
+// Copyright (C) 2006-2015, 2017, 2019 - TortoiseSVN
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -135,6 +135,7 @@ protected:
 	afx_msg void	OnViewInlinediff();
 	afx_msg void	OnUpdateViewInlinediff(CCmdUI *pCmdUI);
 	afx_msg void	OnUpdateEditCreateunifieddifffile(CCmdUI *pCmdUI);
+	afx_msg void    OnOpenRecentFilePairs();
 	afx_msg void	OnEditCreateunifieddifffile();
 	afx_msg void	OnUpdateViewLinediffbar(CCmdUI *pCmdUI);
 	afx_msg void	OnViewLinediffbar();

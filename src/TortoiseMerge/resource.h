@@ -1,4 +1,4 @@
-//{{NO_DEPENDENCIES}}
+﻿//{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
 // Used by d:\TortoiseGit\src\Resources\TortoiseMergeENG.rc
 //
@@ -359,6 +359,7 @@
 #define ID_REGEXFILTER_REGEXFILTER      32993
 #define ID_EDIT_THREEWAY_ACTIONS        33001
 #define ID_REGEX_NO_FILTER              33002
+#define ID_OPEN_RECENT_FILE_PAIRS       33003
 
 // Next default values for new objects
 // 

@@ -105,6 +105,7 @@ BEGIN_MESSAGE_MAP(CMainFrame, CFrameWndEx)
 	ON_UPDATE_COMMAND_UI(ID_VIEW_INLINEDIFF, &CMainFrame::OnUpdateViewInlinediff)
 	ON_UPDATE_COMMAND_UI(ID_EDIT_CREATEUNIFIEDDIFFFILE, &CMainFrame::OnUpdateEditCreateunifieddifffile)
 	ON_COMMAND(ID_EDIT_CREATEUNIFIEDDIFFFILE, &CMainFrame::OnEditCreateunifieddifffile)
+	ON_COMMAND(ID_OPEN_RECENT_FILE_PAIRS, &CMainFrame::OnOpenRecentFilePairs)
 	ON_UPDATE_COMMAND_UI(ID_VIEW_LINEDIFFBAR, &CMainFrame::OnUpdateViewLinediffbar)
 	ON_COMMAND(ID_VIEW_LINEDIFFBAR, &CMainFrame::OnViewLinediffbar)
 	ON_UPDATE_COMMAND_UI(ID_VIEW_BARS, &CMainFrame::OnUpdateViewBars)
@@ -2809,6 +2810,12 @@ void CMainFrame::OnEditCreateunifieddifffile()
 	{
 	}
 }
+
+void CMainFrame::OnOpenRecentFilePairs()
+{
+	MessageBox(L"To be implemented", L"To be implemented");
+}
+
 
 void CMainFrame::OnUpdateViewLinediffbar(CCmdUI *pCmdUI)
 {

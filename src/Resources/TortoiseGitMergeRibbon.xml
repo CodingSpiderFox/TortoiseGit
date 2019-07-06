@@ -34,6 +34,11 @@
         <Image Source="ribbon/SaveAs.bmp"/>
       </Command.LargeImages>
     </Command>
+    <Command Name="cmdShowRecentFileDiffs" LabelTitle="&amp;Hide/Show recent file comparisons" Id="33003">
+      <Command.LargeImages>
+        <Image Source="ribbon/FileList.bmp"/>
+      </Command.LargeImages>
+    </Command>
     <Command Name="cmdShowFileList" LabelTitle="&amp;Hide/Show the patch file list" Id="32817">
       <Command.LargeImages>
         <Image Source="ribbon/FileList.bmp"/>
@@ -286,6 +291,7 @@
             <Button CommandName="cmdCreateUnifiedDiff" />
           </MenuGroup>
           <MenuGroup Class="MajorItems">
+			<Button CommandName="cmdShowRecentFileDiffs" />
             <Button CommandName="cmdShowFileList" />
             <Button CommandName="cmdSettings" />
           </MenuGroup>
